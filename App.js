@@ -21,7 +21,6 @@ class App extends React.Component {
     <input type="text"
       // Watch the field and call update when its contents change
       onChange={this.update.bind(this)} />
-    // Render the state data in a <h2> element
     <h2>{this.state.txt}</h2>
     </div>
   );
